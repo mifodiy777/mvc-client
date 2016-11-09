@@ -1,9 +1,11 @@
-package ru.innopolis.client.entityModal;
+package ru.innopolis.mvc.entityModal;
+
+import java.io.Serializable;
 
 /**
  * Created by Кирилл on 02.11.2016.
  */
-public class RoleModal {
+public class RoleModal implements Serializable{
 
     private Integer id;
 

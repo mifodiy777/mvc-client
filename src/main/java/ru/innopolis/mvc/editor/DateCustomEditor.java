@@ -1,11 +1,11 @@
-package ru.innopolis.client.editor;
+package ru.innopolis.mvc.editor;
 
 import java.beans.PropertyEditorSupport;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static ru.innopolis.client.config.Constance.DATE_FORMAT;
+import static ru.innopolis.mvc.config.Constance.DATE_FORMAT;
 
 /**
  * Преобразование util.Date в формат дд.ММ.гггг и обратно - Используется в Binder

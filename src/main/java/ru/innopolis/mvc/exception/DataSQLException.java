@@ -1,4 +1,4 @@
-package ru.innopolis.client.exception;
+package ru.innopolis.mvc.exception;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

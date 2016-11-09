@@ -1,4 +1,4 @@
-package ru.innopolis.client.controller;
+package ru.innopolis.mvc.controller;
 
 import com.google.gson.GsonBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import ru.innopolis.client.Utils;
-import ru.innopolis.client.editor.DateCustomEditor;
-import ru.innopolis.client.entityModal.StudentModal;
-import ru.innopolis.client.exception.DataSQLException;
-import ru.innopolis.client.service.StudentService;
+import ru.innopolis.mvc.Utils;
+import ru.innopolis.mvc.editor.DateCustomEditor;
+import ru.innopolis.mvc.entityModal.StudentModal;
+import ru.innopolis.mvc.exception.DataSQLException;
+import ru.innopolis.mvc.service.StudentService;
 
 import javax.servlet.http.HttpServletResponse;
 import java.util.Date;

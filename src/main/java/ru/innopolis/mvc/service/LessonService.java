@@ -1,8 +1,8 @@
-package ru.innopolis.client.service;
+package ru.innopolis.mvc.service;
 
 
-import ru.innopolis.client.entityModal.LessonModal;
-import ru.innopolis.client.exception.DataSQLException;
+import ru.innopolis.mvc.entityModal.LessonModal;
+import ru.innopolis.mvc.exception.DataSQLException;
 
 import java.util.List;
 

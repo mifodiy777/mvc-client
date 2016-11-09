@@ -1,4 +1,4 @@
-package ru.innopolis.client.config;
+package ru.innopolis.mvc.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
@@ -11,7 +11,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration.Dynamic;
 
-import static ru.innopolis.client.config.Constance.DISPATCHER_SERVLET_NAME;
+import static ru.innopolis.mvc.config.Constance.DISPATCHER_SERVLET_NAME;
 
 /**
  * Created by Кирилл on 03.11.2016.

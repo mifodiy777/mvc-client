@@ -1,4 +1,4 @@
-package ru.innopolis.client.config;
+package ru.innopolis.mvc.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -18,7 +18,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(securedEnabled = true)
-@ComponentScan("ru.innopolis.client")
+@ComponentScan("ru.innopolis.mvc")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired

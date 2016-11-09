@@ -1,4 +1,4 @@
-package ru.innopolis.client;
+package ru.innopolis.mvc;
 
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 
 import java.nio.charset.Charset;
 
-import static ru.innopolis.client.config.Constance.DATE_FORMAT;
+import static ru.innopolis.mvc.config.Constance.DATE_FORMAT;
 
 /**
  * Created by IntelliJ IDEA.

@@ -1,14 +1,15 @@
-package ru.innopolis.client.entityModal;
+package ru.innopolis.mvc.entityModal;
 
 import com.google.gson.annotations.Expose;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.Set;
 
 /**
  * Created by Кирилл on 01.11.2016.
  */
-public class LessonModal {
+public class LessonModal implements Serializable {
 
     @Expose
     private Integer id;

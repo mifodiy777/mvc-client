@@ -1,4 +1,4 @@
-package ru.innopolis.client.config;
+package ru.innopolis.mvc.config;
 
 
 import org.springframework.context.annotation.Bean;
@@ -11,15 +11,15 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
-import ru.innopolis.client.service.LessonService;
-import ru.innopolis.client.service.StudentService;
+import ru.innopolis.mvc.service.LessonService;
+import ru.innopolis.mvc.service.StudentService;
 
 /**
  * Created by Кирилл on 03.11.2016.
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan("ru.innopolis.client")
+@ComponentScan("ru.innopolis.mvc")
 public class WebAppConfig extends WebMvcConfigurerAdapter {
 
 

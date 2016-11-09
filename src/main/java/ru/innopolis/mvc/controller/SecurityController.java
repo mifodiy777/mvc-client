@@ -1,4 +1,4 @@
-package ru.innopolis.client.controller;
+package ru.innopolis.mvc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

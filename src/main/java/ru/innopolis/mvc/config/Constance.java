@@ -1,4 +1,4 @@
-package ru.innopolis.client.config;
+package ru.innopolis.mvc.config;
 
 /**
  * Created by Кирилл on 07.11.2016.
