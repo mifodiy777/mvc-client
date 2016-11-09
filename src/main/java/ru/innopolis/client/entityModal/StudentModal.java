@@ -72,6 +72,14 @@ public class StudentModal {
         this.birthday = birthday;
     }
 
+    public List<LessonModal> getLessonList() {
+        return lessonList;
+    }
+
+    public void setLessonList(List<LessonModal> lessonList) {
+        this.lessonList = lessonList;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
