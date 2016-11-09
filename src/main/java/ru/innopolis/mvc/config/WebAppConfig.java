@@ -11,8 +11,8 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
-import ru.innopolis.mvc.service.LessonService;
-import ru.innopolis.mvc.service.StudentService;
+import ru.innopolis.common.service.LessonService;
+import ru.innopolis.common.service.StudentService;
 
 /**
  * Created by Кирилл on 03.11.2016.

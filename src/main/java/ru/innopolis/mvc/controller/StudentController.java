@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import ru.innopolis.common.exception.DataSQLException;
+import ru.innopolis.common.modal.StudentModal;
 import ru.innopolis.mvc.Utils;
 import ru.innopolis.mvc.editor.DateCustomEditor;
-import ru.innopolis.mvc.entityModal.StudentModal;
-import ru.innopolis.mvc.exception.DataSQLException;
-import ru.innopolis.mvc.service.StudentService;
+import ru.innopolis.common.service.StudentService;
 
 import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
