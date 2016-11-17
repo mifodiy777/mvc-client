@@ -54,6 +54,7 @@
 
     <form:form modelAttribute="student" id="studentForm" method="post" action="saveStudent">
         <form:hidden path="id"/>
+        <form:hidden path="version"/>
         <div class="panel-body">
             <div class="divider"><h4> Студент: </h4></div>
 

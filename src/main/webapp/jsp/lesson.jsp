@@ -54,6 +54,7 @@
 
     <form:form modelAttribute="lesson" id="lessonForm" method="post" action="saveLesson">
         <form:hidden path="id"/>
+        <form:hidden path="version"/>
         <div class="panel-body">
             <div class="divider"><h4> Занятие: </h4></div>
 
